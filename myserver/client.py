@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     s.connect((host, port))
     request_data = "GET /"+filename+" HTTP/1.1\n"+\
-        "Host: 10.151.1.171:12345\n"+\
+        "Host: "+sys.argv[1]+":"+port+"\n"+\
         "Connection: keep-alive\n"+\
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n"+\
         "User-Agent: Python Client\n"+\
