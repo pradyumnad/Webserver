@@ -14,7 +14,7 @@ def getrequestdata(data):
     list = string.split(' ')
     request_method = list[0]
     requestdata["Method"] = request_method
-    m = re.search("[a-zA-Z0-9]*(.html|.htm)", list[1])
+    m = re.search("[a-zA-Z0-9_]*(.html|.htm|.gif|.jpg|.png)", list[1])
 
     requestdata["FileName"] = "" if m is None else m.group(0)
     return requestdata
@@ -42,6 +42,12 @@ if __name__ == '__main__':
 
             filename = reqdata["FileName"]
             print("Opening "+filename)
+
+            if filename.endswith(".gif"):
+                filename = "images/"+filename
+
+            if filename.endswith(".jpg"):
+                filename = "images/"+filename
 
             if len(filename) == 0:
                 filename = "HelloWorld.html"
