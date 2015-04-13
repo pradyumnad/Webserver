@@ -2,18 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bf226ce-f0fe-4f63-8ab2-deb72d819b08" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/about_kc.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/author.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/committe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/paper.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/program.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/registration.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/sponsor.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/technical.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/travel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myserver/tutorial.html" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\.idea\Webserver.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\about_kc.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\author.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\committe.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\docs\IPOM2003-Program.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\1_MULTIPART_xF8FF_2_BetterLogo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\ComSoc2v.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\ieeelogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\kansas.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\kansas1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\kansas2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\sprint_rk.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\top.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\umkclogo.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\images\undertop.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\paper.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\program.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\registration.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\sponsor.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\technical.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\travel.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\GuruTeja\Desktop\Webserver\myserver\tutorial.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserver/404Error.html" afterPath="$PROJECT_DIR$/myserver/404Error.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserver/client.py" afterPath="$PROJECT_DIR$/myserver/client.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myserver/server.py" afterPath="$PROJECT_DIR$/myserver/server.py" />
     </list>
     <ignored path="Webserver.iws" />
@@ -45,7 +59,7 @@
       <file leaf-file-name="server.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myserver/server.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
+            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1190">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
@@ -55,7 +69,7 @@
       <file leaf-file-name="author.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myserver/author.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2878788" vertical-offset="102" max-vertical-offset="2890">
+            <state vertical-scroll-proportion="0.74823946" vertical-offset="102" max-vertical-offset="2890">
               <caret line="31" column="24" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="24" />
               <folding />
             </state>
@@ -118,7 +132,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -151,26 +164,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Webserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myserver" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -423,28 +419,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32913387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -477,11 +473,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/myserver/server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="1190">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myserver/author.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/myserver/technical.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2943" max-vertical-offset="3383">
           <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -489,7 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1549" max-vertical-offset="1989">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -505,7 +515,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2637" max-vertical-offset="3077">
           <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -513,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2297" max-vertical-offset="2737">
           <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -521,7 +529,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1719" max-vertical-offset="2159">
           <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -529,7 +536,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2601">
           <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -537,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1889" max-vertical-offset="2329">
           <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2943" max-vertical-offset="3383">
           <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1549" max-vertical-offset="1989">
           <caret line="111" column="0" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,7 +617,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9415042" vertical-offset="2637" max-vertical-offset="3077">
           <caret line="175" column="0" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -622,7 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9415042" vertical-offset="2297" max-vertical-offset="2737">
           <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -630,7 +631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9415042" vertical-offset="1719" max-vertical-offset="2159">
           <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -638,7 +638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="2601">
           <caret line="56" column="48" selection-start-line="56" selection-start-column="48" selection-end-line="56" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,7 +645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4206128" vertical-offset="1889" max-vertical-offset="2329">
           <caret line="120" column="32" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -660,7 +658,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myserver/author.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2878788" vertical-offset="102" max-vertical-offset="2890">
+        <state vertical-scroll-proportion="0.74823946" vertical-offset="102" max-vertical-offset="2890">
           <caret line="31" column="24" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="24" />
           <folding />
         </state>
