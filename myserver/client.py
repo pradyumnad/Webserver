@@ -13,13 +13,12 @@ if __name__ == '__main__':
 
     s = socket.socket()
     host = socket.gethostbyaddr(sys.argv[1])[0]
-    print(host)
     port = int(sys.argv[2])
     filename = sys.argv[3]
 
     s.connect((host, port))
     request_data = "GET /"+filename+" HTTP/1.1\n"+\
-        "Host: "+sys.argv[1]+":"+port+"\n"+\
+        "Host: "+sys.argv[1]+":"+str(port)+"\n"+\
         "Connection: keep-alive\n"+\
         "Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8\n"+\
         "User-Agent: Python Client\n"+\
@@ -27,5 +26,9 @@ if __name__ == '__main__':
         "Accept-Language: en-US,en;q=0.8\n"
 
     s.send(request_data)
-    print(s.recv(1024))
+
+    data = s.recv(1024)
+    while len(data) > 0:
+        print(data)
+        data = s.recv(1024)
     s.close()
