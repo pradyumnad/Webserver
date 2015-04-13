@@ -1,5 +1,3 @@
-import socket
-
 __author__ = 'pradyumnad'
 
 from socket import *
@@ -48,7 +46,7 @@ if __name__ == '__main__':
 
             if os.path.isfile(filename):
                 f = open(filename)
-                print "file does exist at this time"
+                print "file exist at this time"
                 client.send(f.read())
                 print("HTML sent to Client.")
             else:
