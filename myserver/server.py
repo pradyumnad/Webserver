@@ -5,8 +5,13 @@ __author__ = 'pradyumnad'
 from socket import *
 import re
 import os
+import urllib
 
 PORT = 12345
+
+proxy = "https://www.google.com/"
+
+proxy_enabled = 1
 
 def getrequestdata(data):
     string = bytes.decode(data)
@@ -14,7 +19,10 @@ def getrequestdata(data):
     list = string.split(' ')
     request_method = list[0]
     requestdata["Method"] = request_method
-    m = re.search("[a-zA-Z0-9_]*(.html|.htm|.gif|.jpg|.png)", list[1])
+    if list.__len__() > 1:
+        m = re.search("[a-zA-Z0-9_]*(.html|.htm|.gif|.jpg|.png)", list[1])
+    else:
+        m = None
 
     requestdata["FileName"] = "" if m is None else m.group(0)
     requestdata["File"] = list[1].strip("/")
@@ -53,10 +61,15 @@ if __name__ == '__main__':
                 client.send(f.read())
                 print("HTML sent to Client.")
             else:
-                filename = "404Error.html"
-                print("Opening "+filename)
-                f = open(filename)
-                client.send(f.read())
+                if proxy_enabled:
+                    proxy_url = proxy+filename
+                    f = urllib.urlopen(proxy_url)
+                    client.send(f.read())
+                else:
+                    filename = "404Error.html"
+                    print("Opening "+filename)
+                    f = open(filename)
+                    client.send(f.read())
 
         except IOError:
             print("Exception.")
