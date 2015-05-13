@@ -1,5 +1,3 @@
-import socket
-
 __author__ = 'pradyumnad'
 
 from socket import *
@@ -19,13 +17,17 @@ def getrequestdata(data):
     list = string.split(' ')
     request_method = list[0]
     requestdata["Method"] = request_method
-    if list.__len__() > 1:
-        m = re.search("[a-zA-Z0-9_]*(.html|.htm|.gif|.jpg|.png)", list[1])
-    else:
-        m = None
+    # if list.__len__() > 1:
+    #     m = re.search("[a-zA-Z0-9_]*(.html|.htm|.gif|.jpg|.png)", list[1])
+    # else:
+    #     m = None
 
-    requestdata["FileName"] = "" if m is None else m.group(0)
-    requestdata["File"] = list[1].strip("/")
+    # requestdata["FileName"] = "" if m is None else m.group(0)
+    print(list)
+    if list.__len__() > 1:
+        requestdata["File"] = list[1].strip("/")
+    else:
+        requestdata["File"] = ""
     return requestdata
 
 if __name__ == '__main__':
@@ -44,7 +46,7 @@ if __name__ == '__main__':
         try:
             data = client.recv(1024)
             string = bytes.decode(data)
-            print(string)
+            # print(string)
             # Request decoding
             reqdata = getrequestdata(data)
             print(reqdata)
@@ -53,7 +55,7 @@ if __name__ == '__main__':
             print("Opening "+filename)
 
             if len(filename) == 0:
-                filename = "HelloWorld.html"
+                filename = "index.html"
 
             if os.path.isfile(filename):
                 f = open(filename)
